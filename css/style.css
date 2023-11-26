@@ -1,0 +1,130 @@
+body {
+    font-family: tahoma, arial, helvetica;
+    margin:0;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+
+#principal {
+    
+   
+    margin-top: 40px;
+}
+
+.header-topo {
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+.logotipo {
+    margin: 0px 0px 0px 170px;
+}
+nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 14px;
+}
+
+nav ul li a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    transition: color 0.3s linear;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.modelo-edit {
+    width: 100%;
+}
+
+.texto {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.texto h1 {
+    font-size: 36px;
+    color: #252525;
+}
+
+.texto p {
+    line-height: 2;
+    color: #555;
+}
+
+.galeria {
+    color: #555;
+    padding: 0px 100px 50px 100px;
+    overflow: auto;
+}
+
+.galeria .cards {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.galeria .cards .galeria-titulo {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.parte-final {
+    background-color: #003d52;
+    padding: 50px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.parte-final h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.parte-final p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contato {
+    margin: 50px 0px;
+}
+
+#contato address {
+    color: #143f52;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 26px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 5px;
+}
